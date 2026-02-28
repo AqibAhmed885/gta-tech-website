@@ -47,7 +47,7 @@ export default function ServiceSection({
               {title}
             </h2>
 
-            <div className="w-20 h-1 bg-linear-to-r from-[#5FAFDD] to-[#4BAB54] rounded-full" />
+            <div className="w-20 h-1 bg-linear-to-r from-[#5FAFDD] to-[#a200ff] rounded-full" />
 
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
               {description}
@@ -59,7 +59,7 @@ export default function ServiceSection({
                 {features.map((feature, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-gray-200">
                     <svg
-                      className="w-6 h-6 text-[#4BAB54] shrink-0 mt-1"
+                      className="w-6 h-6 text-[#a200ff] shrink-0 mt-1"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -78,7 +78,7 @@ export default function ServiceSection({
             )}
 
             {/* <div className="flex gap-4 pt-4">
-              <button className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-linear-to-r from-[#5FAFDD] to-[#4BAB54] text-[#001E5F] font-bold text-sm hover:scale-105 transition-transform shadow-lg">
+              <button className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-linear-to-r from-[#5FAFDD] to-[#a200ff] text-[#001E5F] font-bold text-sm hover:scale-105 transition-transform shadow-lg">
                 Learn More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

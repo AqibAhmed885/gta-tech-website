@@ -340,13 +340,13 @@ const Services = forwardRef((props, outerRef) => {
       <div className="relative shrink-0 mr-12 ">
         {/* sticky with top offset so it pins while the right content scrolls */}
         <div className="sticky top-28 z-20">
-          <h1 className="text-6xl md:text-8xl  font-semibold bg-linear-to-r from-[#0BC1A5] to-[#4BAB54] bg-clip-text text-transparent mb-12 uppercase" style={{ WebkitTextFillColor: 'transparent' }}>
+          <h1 className="text-6xl md:text-8xl  font-semibold bg-linear-to-r from-[#d489ff] to-[#7C3AED] bg-clip-text text-transparent mb-12 uppercase" style={{ WebkitTextFillColor: 'transparent' }}>
             Services
           </h1>
           {/* counter: shows active service number */}
           {/* <div className="relative overflow-hidden mb-2 h-36">
             <div className="absolute inset-0 flex items-center">
-              <div className="relative w-full h-[301px] text-[12rem] font-medium bg-linear-to-b from-[#039932] to-[#001E5F] bg-clip-text text-transparent" style={{ WebkitTextFillColor: 'transparent' }}>
+              <div className="relative w-full h-[301px] text-[12rem] font-medium bg-linear-to-b from-[#d489ff] to-[#001E5F] bg-clip-text text-transparent" style={{ WebkitTextFillColor: 'transparent' }}>
                 {prevNumber && (
                   <span ref={prevNumRef} className="absolute inset-0 flex items-center justify-center select-none z-10">{prevNumber}</span>
                 )}
@@ -392,7 +392,7 @@ const Services = forwardRef((props, outerRef) => {
                   //   willChange: 'transform',
                   // }}
                 >
-                  <h1 className="text-9xl  font-semibold  bg-linear-to-r from-[#0BC1A5] to-[#4BAB54] bg-clip-text text-transparent ">
+                  <h1 className="text-9xl  font-semibold  bg-linear-to-r from-[#d489ff] to-[#7C3AED] bg-clip-text text-transparent ">
                     {service.number}
                   </h1>
                   </div>
@@ -400,7 +400,7 @@ const Services = forwardRef((props, outerRef) => {
                   <h1 className={`text-3xl uppercase font-semibold mb-1 transition-colors duration-500 ${lightMode ? 'text-[#001E5F]' : 'text-white'}`}>
                     {service.title}
                   </h1>
-                  <p className={`text-2xl font-medium transition-colors duration-500 ${lightMode ? 'text-[#4BAB54]' : 'text-[#039932]'}`}>{service.subtitle}</p>
+                  <p className={`text-2xl font-medium transition-colors duration-500 ${lightMode ? 'text-[#d489ff]' : 'text-[#d489ff]'}`}>{service.subtitle}</p>
                   <p className={`text-xl leading-relaxed transition-colors duration-500 ${lightMode ? 'text-gray-700' : 'text-gray-300'}`}>{service.description}</p>
                 </div>
               </div>
@@ -427,7 +427,7 @@ const Services = forwardRef((props, outerRef) => {
         {/* <div className="flex justify-end mt-12">
           <a
             href="/services"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-linear-to-r from-[#039932] to-[#4BAB54] text-[#001E5F] text-base font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-linear-to-r from-[#d489ff] to-[#7C3AED] text-[#001E5F] text-base font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all"
           >
             View all services
             <svg

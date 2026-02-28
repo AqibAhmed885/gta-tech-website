@@ -158,7 +158,7 @@ export default function PortfolioPageContent() {
                 }}
                 className={`px-6 py-1.5 rounded-full text-xs font-semibold transition-all ${
                   activeCategory === category
-                  ? "bg-linear-to-r from-[#039932] to-[#4BAB54] text-[#001E5F]"
+                  ? "bg-linear-to-r from-[#d489ff] to-[#a200ff] text-[#001E5F]"
                     : "bg-white/5 text-gray-300 hover:bg-white/10 border border-white/10"
                 }`}
               >
@@ -181,7 +181,7 @@ export default function PortfolioPageContent() {
 
               >
                 <div
-                  className="roverflow-hidden rounded-4xl overflow-hidden bg-white/5 h-full backdrop-blur-md border border-white/10 hover:border-[#039932]/50 transition-all hover:scale-105"
+                  className="roverflow-hidden rounded-4xl overflow-hidden bg-white/5 h-full backdrop-blur-md border border-white/10 hover:border-[#d489ff]/50 transition-all hover:scale-105"
 
                 >
                   <div className={`relative aspect-video overflow-hidden flex ${idx % 2 === 1 ? 'items-start justify-end' : 'items-end'}`}>
@@ -189,7 +189,7 @@ export default function PortfolioPageContent() {
                       src={project.logo}
                       alt={project.name}
                       fill
-                      className="object-contain p-12   bg-linear-to-r from-[#039932]  to-[#4BAB54] transition-transform duration-500 group-hover:scale-110"
+                      className="object-contain p-12   bg-linear-to-r from-[#d489ff]  to-[#a200ff] transition-transform duration-500 group-hover:scale-110"
 
                     />
                     <div className="absolute inset-0 bg-linear-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
@@ -201,7 +201,7 @@ export default function PortfolioPageContent() {
 
                   <div className="p-6">
                     <div className="flex items-center gap-2 mb-3">
-                      <span className="text-xs font-semibold text-[#039932] px-3 py-1 rounded-full bg-[#039932]/10">
+                      <span className="text-xs font-semibold text-[#d489ff] px-3 py-1 rounded-full bg-[#d489ff]/10">
                         {project.category}
                       </span>
                       {project.year && (
@@ -242,7 +242,7 @@ export default function PortfolioPageContent() {
                               rel="noopener noreferrer"
                               aria-label={label}
                               onClick={(event) => event.stopPropagation()}
-                              className="h-8 w-8 rounded-full border border-white/20 bg-white/5 text-gray-200 hover:text-white hover:border-[#039932]/50 flex items-center justify-center transition-all"
+                              className="h-8 w-8 rounded-full border border-white/20 bg-white/5 text-gray-200 hover:text-white hover:border-[#d489ff]/50 flex items-center justify-center transition-all"
                             >
                               <Icon className="w-4 h-4" />
                             </Link>
@@ -283,14 +283,14 @@ export default function PortfolioPageContent() {
                 src={selectedProject.image}
                 alt={selectedProject.name}
                 fill
-                className="object-contain px-4 md:px-24 bg-linear-to-r from-[#039932]  to-[#4BAB54]"
+                className="object-contain px-4 md:px-24 bg-linear-to-r from-[#d489ff]  to-[#a200ff]"
                 sizes="(max-width: 768px) 100vw, 80vw"
               />
             </div>
 
             <div className="p-8 md:p-12">
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-sm font-semibold text-[#039932] px-4 py-2 rounded-full bg-[#039932]/10">
+                <span className="text-sm font-semibold text-[#d489ff] px-4 py-2 rounded-full bg-[#d489ff]/10">
                   {selectedProject.category}
                 </span>
                 {selectedProject.year && <span className="text-sm text-gray-400">{selectedProject.year}</span>}
@@ -314,7 +314,7 @@ export default function PortfolioPageContent() {
                 {selectedProject.results && (
                   <div>
                     <h4 className="text-sm font-semibold text-gray-400 mb-2">Results</h4>
-                    <p className="text-[#039932] font-medium">{selectedProject.results}</p>
+                    <p className="text-[#d489ff] font-medium">{selectedProject.results}</p>
                   </div>
                 )}
               </div>
@@ -346,7 +346,7 @@ export default function PortfolioPageContent() {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label={label}
-                        className="h-10 w-10 rounded-full border border-white/20 bg-white/5 text-gray-200 hover:text-white hover:border-[#039932]/50 flex items-center justify-center transition-all"
+                        className="h-10 w-10 rounded-full border border-white/20 bg-white/5 text-gray-200 hover:text-white hover:border-[#d489ff]/50 flex items-center justify-center transition-all"
                       >
                         <Icon className="w-5 h-5" />
                       </a>
@@ -368,7 +368,7 @@ export default function PortfolioPageContent() {
               <div className="flex gap-4 mt-4">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center text-nowrap gap-2 md:px-6 px-3 py-1.5 md:py-3 rounded-full bg-linear-to-r from-[#039932] to-[#4BAB54] text-[#001E5F] font-semibold hover:scale-105 transition-transform"
+                  className="inline-flex items-center text-nowrap gap-2 md:px-6 px-3 py-1.5 md:py-3 rounded-full bg-linear-to-r from-[#d489ff] to-[#a200ff] text-[#001E5F] font-semibold hover:scale-105 transition-transform"
                 >
                   Start Your Project
                   <svg

@@ -9,10 +9,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 p-10 md:p-8">
           <div className="md:col-span-2">
             <div className="flex items-center gap-4 mb-6">
-              <Image src="/gd-logo-white.png" alt="GD Marketing Logo" width={220} height={80} className="" />
+              <Image src="/gta-logo.png" alt="GTA Tech Solutions Logo" width={220} height={80} className="" />
             </div>
             <p className="text-base md:text-lg text-white/90 max-w-xl leading-relaxed">
-              Premium digital marketing and IT solutions to help brands grow with strategy, design, and scalable technology.
+              GTA Tech Solutions delivers AI-powered digital products, cloud-ready engineering, and growth-focused technology services for modern businesses.
             </p>
           </div>
 
@@ -28,7 +28,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-xl uppercase tracking-wider mb-5 text-white/90">Contact</h3>
             <ul className="space-y-4 text-lg mt-5 text-white/90">
-              <li><a href="mailto:info@gdmarketing.us" className="hover:text-white transition-colors">gdmarketingusoffical@gmail.com</a></li>
+              <li><a href="mailto:info@gtatechsolutions.com" className="hover:text-white transition-colors">info@gtatechsolutions.com</a></li>
               <li><a href="tel:+16263792252" className="hover:text-white transition-colors">+1 626 379 2252</a></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">Get in Touch</Link></li>
             </ul>
@@ -36,10 +36,10 @@ export default function Footer() {
         </div>
 
         <div className="px-10 md:px-16 py-6 border-t border-white/20 flex flex-col sm:flex-row  items-center justify-between  gap-4 text-sm text-white/85">
-          <p>© 2026 GD Marketing. All rights reserved.</p>
+          <p>© 2026 GTA Tech Solutions. All rights reserved.</p>
           <div className="flex items-center gap-3">
             <Link
-              href="https://www.instagram.com/gdmarketing_official?igsh=b3djMmo4N2FsNXRm"
+              href="https://www.instagram.com/gtatechsolutions/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -49,7 +49,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="https://youtube.com/@gdmarketingofficial?si=-km_94tAgB3rLsG1"
+              href="https://youtube.com/@gtatechsolutions"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
@@ -69,7 +69,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="https://www.linkedin.com/company/gdmarketingofficial/"
+              href="https://www.linkedin.com/company/gtatechsolutions/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"

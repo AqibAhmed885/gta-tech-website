@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: ["/api/", "/admin/"],
     },
-    sitemap: "https://gdmarketing.us/sitemap.xml",
+    sitemap: "https://gtatechsolutions.com/sitemap.xml",
   };
 }

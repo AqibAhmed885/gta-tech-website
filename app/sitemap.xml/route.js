@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://gdmarketing.us";
+  const baseUrl = "https://gtatechsolutions.com";
   
   return [
     {

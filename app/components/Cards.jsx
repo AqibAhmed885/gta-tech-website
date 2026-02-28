@@ -54,7 +54,7 @@ const Cards = forwardRef((props, outerRef) => {
       className={`w-full min-h-[80vh] flex justify-center py-12 transition-colors duration-500 ${lightMode ? 'bg-transparent text-[#001E5F]' : 'bg-white text-white'}`}>
       <div className="flex flex-col md:flex-row w-full max-w-[1440px] px-4 gap-8">
         {/* Left: Vision (taller card) */}
-        <div className={`flex-1  p-8 md:p-10 flex rounded-4xl flex-col items-start min-h-[300px] shadow-sm transition-colors duration-500 ${lightMode ? 'bg-[#4BAB54] text-white' : 'bg-white text-[#001E5F] border border-gray-200 '}`}>
+        <div className={`flex-1  p-8 md:p-10 flex rounded-4xl flex-col items-start min-h-[300px] shadow-sm transition-colors duration-500 ${lightMode ? 'bg-[#0076be] text-white' : 'bg-white text-[#001E5F] border border-gray-200 '}`}>
           <h3 className="text-3xl md:text-5xl uppercase font-semibold ">Vision</h3>
           <div className="flex items-start mt-6 gap-5">
             <span className={`w-20 h-20 hidden md:block rounded-full ${lightMode ? 'bg-[#E6EEF6]' : 'bg-[#DEDEE0]'} shrink-0`} />
@@ -64,7 +64,7 @@ const Cards = forwardRef((props, outerRef) => {
         </div>
         {/* Right column: stacked Mission + Values */}
         <div className="flex-1 flex flex-col h-full gap-8">
-          <div className={` p-8 md:p-10 h-full rounded-4xl flex flex-col justify-center shadow-sm transition-colors duration-500 ${lightMode ? 'bg-[#3b3051] text-white' : 'bg-white text-[#001E5F] border border-gray-200 '}`}>
+          <div className={` p-8 md:p-10 h-full rounded-4xl flex flex-col justify-center shadow-sm transition-colors duration-500 ${lightMode ? 'bg-[#5f3e71] text-white' : 'bg-white text-[#001E5F] border border-gray-200 '}`}>
             <h1 className="text-3xl md:text-5xl uppercase font-semibold mb-4">Mission</h1>
             <p className="md:text-2xl mt-4 text-lg font-normal leading-relaxed max-w-base">
               To transform businesses into structured, scalable brands

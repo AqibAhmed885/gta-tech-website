@@ -1,9 +1,9 @@
 import ServicesPageContent from "./ServicesPageContent";
 
 export const metadata = {
-  title: "Services | GD Marketing - Premium Digital Marketing & IT Solutions",
+  title: "Services | GTA Tech Solutions - AI, Product & IT Services",
   description:
-    "Explore our comprehensive digital marketing and IT services: Custom Software Development, Web & Mobile Development, Business Automation, Digital Marketing, Cloud Solutions, Cybersecurity & IT Consulting. Transform your business with cutting-edge technology.",
+    "Explore our end-to-end GTA Tech Solutions services: AI automation, custom software engineering, web and mobile development, cloud modernization, cybersecurity, data intelligence, and digital growth strategy.",
   keywords: [
     "IT services",
     "software development",
@@ -22,16 +22,16 @@ export const metadata = {
     "enterprise software",
   ],
   openGraph: {
-    title: "Premium IT Services | GD Marketing",
+    title: "Premium IT Services | GTA Tech Solutions",
     description:
-      "Transform your business with our comprehensive digital marketing and IT solutions. From software development to cybersecurity, we deliver excellence.",
+      "Accelerate business outcomes with AI automation, cloud-native development, secure systems, and product engineering excellence.",
     type: "website",
     images: [
       {
         url: "/Logo.png",
         width: 1200,
         height: 630,
-        alt: "GD Marketing Services",
+        alt: "GTA Tech Solutions Services",
       },
     ],
   },

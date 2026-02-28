@@ -127,7 +127,7 @@ export default function BlogsPage() {
                 <div>
                   <div className="flex gap-2 items-center">
                     {(openPost.tags || []).map((tag) => (
-                      <span key={tag} className="text-xs font-semibold text-[#039932] px-3 py-1 rounded-full bg-[#039932]/10">{tag}</span>
+                      <span key={tag} className="text-xs font-semibold text-[#d489ff] px-3 py-1 rounded-full bg-[#d489ff]/10">{tag}</span>
                     ))}
                   </div>
                   <div className="text-xs text-right text-gray-400 mt-2">{openPost.date}</div>

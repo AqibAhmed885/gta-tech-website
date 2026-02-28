@@ -26,29 +26,29 @@ export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "GD Marketing",
-    url: "https://gdmarketing.us",
-    logo: "https://gdmarketing.us/gdlogo.jpg",
+    name: "GTA Tech Solutions",
+    url: "https://gtatechsolutions.com",
+    logo: "https://gtatechsolutions.com/gta-logo.png",
     description:
-      "Premium digital marketing and IT solutions. Custom software development, web & mobile apps, cloud services, and more.",
+      "AI-powered technology and growth solutions including custom software development, web and mobile apps, cloud modernization, cybersecurity, and digital strategy.",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "123 Marketing Street",
-      addressLocality: "New York",
-      addressRegion: "NY",
-      postalCode: "10001",
-      addressCountry: "US",
+      streetAddress: "3030 Shadowbriar Dr",
+      addressLocality: "Houston",
+      addressRegion: "TX",
+      postalCode: "77082",
+      addressCountry: "US"
     },
     contactPoint: {
       "@type": "ContactPoint",
       telephone: "+1-555-123-4567",
       contactType: "Customer Service",
-      email: "hello@gdmarketing.us",
+      email: "info@gtatechsolutions.com",
     },
     sameAs: [
-      "https://twitter.com/gdmarketing",
-      "https://linkedin.com/company/gdmarketing",
-      "https://github.com/gdmarketing",
+      "https://twitter.com/gtatechsolutions",
+      "https://linkedin.com/company/gtatechsolutions",
+      "https://github.com/gtatechsolutions",
     ],
   };
 

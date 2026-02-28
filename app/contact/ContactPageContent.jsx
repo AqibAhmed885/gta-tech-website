@@ -13,8 +13,8 @@ const contactInfo = [
   {
     icon: FiMail,
     title: "Email",
-    detail: "info@gdmarketing.us",
-    link: "mailto:info@gdmarketing.us",
+    detail: "info@gtatechsolutions.com",
+    link: "mailto:info@gtatechsolutions.com",
   },
   {
     icon: FiPhone,
@@ -270,9 +270,9 @@ export default function ContactPageContent() {
               {contactInfo.map((info, index) => (
                 <div
                   key={index}
-                  className="info-card p-6 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-[#039932]/50 transition-all text-center"
+                  className="info-card p-6 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-[#d489ff]/50 transition-all text-center"
                 >
-                  <div className="mb-4 flex justify-center text-[#4BAB54]">
+                  <div className="mb-4 flex justify-center text-[#a200ff]">
                     <info.icon className="w-10 h-10" aria-hidden />
                   </div>
                   <h3 className="text-2xl font-semibold text-white mb-2">
@@ -281,7 +281,7 @@ export default function ContactPageContent() {
                   {info.link ? (
                     <a
                       href={info.link}
-                      className="text-base text-gray-300 hover:text-[#039932] transition-colors"
+                      className="text-base text-gray-300 hover:text-[#d489ff] transition-colors"
                       target={info.link.startsWith("http") ? "_blank" : undefined}
                       rel={
                         info.link.startsWith("http")
@@ -339,7 +339,7 @@ export default function ContactPageContent() {
                       value={formData.name}
                       onChange={handleChange}
                       className={`w-full px-4 py-3 rounded-xl bg-white/10 border ${errors.name ? "border-red-500" : "border-white/20"
-                        } text-white placeholder-gray-500 focus:outline-none focus:border-[#039932] focus:ring-2 focus:ring-[#039932]/20 transition-all`}
+                        } text-white placeholder-gray-500 focus:outline-none focus:border-[#d489ff] focus:ring-2 focus:ring-[#d489ff]/20 transition-all`}
                       placeholder="John Doe"
                     />
                     {errors.name && (
@@ -362,7 +362,7 @@ export default function ContactPageContent() {
                       value={formData.email}
                       onChange={handleChange}
                       className={`w-full px-4 py-3 rounded-xl bg-white/10 border ${errors.email ? "border-red-500" : "border-white/20"
-                        } text-white placeholder-gray-500 focus:outline-none focus:border-[#039932] focus:ring-2 focus:ring-[#039932]/20 transition-all`}
+                        } text-white placeholder-gray-500 focus:outline-none focus:border-[#d489ff] focus:ring-2 focus:ring-[#d489ff]/20 transition-all`}
                       placeholder="john@example.com"
                     />
                     {errors.email && (
@@ -386,7 +386,7 @@ export default function ContactPageContent() {
                       name="company"
                       value={formData.company}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-500 focus:outline-none focus:border-[#039932] focus:ring-2 focus:ring-[#039932]/20 transition-all"
+                      className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-500 focus:outline-none focus:border-[#d489ff] focus:ring-2 focus:ring-[#d489ff]/20 transition-all"
                       placeholder="Your Company"
                     />
                   </div>
@@ -405,7 +405,7 @@ export default function ContactPageContent() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-500 focus:outline-none focus:border-[#039932] focus:ring-2 focus:ring-[#039932]/20 transition-all"
+                      className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-500 focus:outline-none focus:border-[#d489ff] focus:ring-2 focus:ring-[#d489ff]/20 transition-all"
                       placeholder="+92 333 1506464"
                     />
                   </div>
@@ -424,7 +424,7 @@ export default function ContactPageContent() {
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white focus:outline-none focus:border-[#039932] focus:ring-2 focus:ring-[#039932]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white focus:outline-none focus:border-[#d489ff] focus:ring-2 focus:ring-[#d489ff]/20 transition-all"
                   >
                     <option value="" className="bg-[#0a0a0a]">
                       Select a service
@@ -471,7 +471,7 @@ export default function ContactPageContent() {
                     value={formData.message}
                     onChange={handleChange}
                     className={`w-full px-4 py-3 rounded-xl bg-white/10 border ${errors.message ? "border-red-500" : "border-white/20"
-                      } text-white placeholder-gray-500 focus:outline-none focus:border-[#039932] focus:ring-2 focus:ring-[#039932]/20 transition-all resize-none`}
+                      } text-white placeholder-gray-500 focus:outline-none focus:border-[#d489ff] focus:ring-2 focus:ring-[#d489ff]/20 transition-all resize-none`}
                     placeholder="Tell us about your project..."
                   ></textarea>
                   {errors.message && (
@@ -483,7 +483,7 @@ export default function ContactPageContent() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full px-8 py-4 rounded-full bg-linear-to-r from-[#039932] to-[#4BAB54] text-[#001E5F] font-medium text-lg shadow-lg hover:scale-105 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+                  className="w-full px-8 py-4 rounded-full bg-linear-to-r from-[#d489ff] to-[#a200ff] text-[#001E5F] font-medium text-lg shadow-lg hover:scale-105 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
                 >
                   {isSubmitting ? (
                     <span className="flex items-center justify-center gap-3">

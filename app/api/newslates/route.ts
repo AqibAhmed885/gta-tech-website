@@ -78,19 +78,19 @@ export async function POST(request: Request) {
 
       const html = `
         <div style="font-family: Arial, sans-serif; color: #111;">
-          <h2 style="color: #039932;">Welcome to GD Marketing Newslates</h2>
+          <h2 style="color: #d489ff;">Welcome to GTA Tech Solutions Newslates</h2>
           <p>Hi ${name || ''},</p>
-          <p>Thanks for subscribing — you will now receive the latest updates and insights from GD Marketing.</p>
+          <p>Thanks for subscribing — you will now receive the latest updates and insights from GTA Tech Solutions.</p>
           <p>If you didn\'t subscribe, you can safely ignore this message.</p>
           <br/>
-          <p>— GD Marketing</p>
+          <p>— GTA Tech Solutions</p>
         </div>
       `;
 
       await transporter.sendMail({
         from: process.env.SMTP_FROM,
         to: email,
-        subject: 'Welcome — GD Marketing Newslates',
+        subject: 'Welcome — GTA Tech Solutions Newslates',
         html,
       });
     } catch (mailErr) {

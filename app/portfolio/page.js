@@ -1,9 +1,9 @@
 import PortfolioPageContent from "./PortfolioPageContent";
 
 export const metadata = {
-  title: "Portfolio | GD Marketing - Our Work & Case Studies",
+  title: "Portfolio | GTA Tech Solutions - Case Studies & Outcomes",
   description:
-    "Explore GD Marketing's portfolio of successful projects. From enterprise software to mobile apps, web platforms, and digital transformations - see how we've helped businesses achieve their goals.",
+    "Explore GTA Tech Solutions case studies across enterprise software, AI automation, web platforms, mobile products, and digital transformation programs that delivered measurable growth.",
   keywords: [
     "portfolio",
     "case studies",
@@ -15,16 +15,16 @@ export const metadata = {
     "project showcase",
   ],
   openGraph: {
-    title: "GD Marketing Portfolio - Our Work",
+    title: "GTA Tech Solutions Portfolio - Our Work",
     description:
-      "See how we've transformed businesses with innovative digital marketing and IT solutions. Explore our portfolio of successful projects.",
+      "See how we help teams scale with modern engineering, secure architecture, and performance-driven digital solutions.",
     type: "website",
     images: [
       {
         url: "/Logo.png",
         width: 1200,
         height: 630,
-        alt: "GD Marketing Portfolio",
+        alt: "GTA Tech Solutions Portfolio",
       },
     ],
   },

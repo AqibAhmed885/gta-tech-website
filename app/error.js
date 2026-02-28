@@ -28,14 +28,14 @@ export default function Error({ error, reset }) {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <button
             onClick={reset}
-            className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-linear-to-r from-[#039932] to-[#4BAB54] text-[#001E5F] font-bold text-lg shadow-lg hover:scale-105 transition-all"
+            className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-linear-to-r from-[#d489ff] to-[#a200ff] text-[#001E5F] font-bold text-lg shadow-lg hover:scale-105 transition-all"
           >
             Try Again
           </button>
 
           <a
             href="/"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full border-2 border-[#039932] text-[#039932] font-bold text-lg hover:bg-[#039932]/10 transition-all"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full border-2 border-[#d489ff] text-[#d489ff] font-bold text-lg hover:bg-[#d489ff]/10 transition-all"
           >
             Go Home
           </a>

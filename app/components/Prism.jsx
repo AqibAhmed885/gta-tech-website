@@ -18,7 +18,7 @@ const Prism = ({
   bloom = 1,
   suspendWhenOffscreen = false,
   timeScale = 0.5,
-  tintColor = '#039932', // hex or 'r,g,b' or [r,g,b]
+  tintColor = '#d489ff', // hex or 'r,g,b' or [r,g,b]
   tintStrength = 0.6
 }) => {
   const containerRef = useRef(null);
@@ -55,7 +55,7 @@ const Prism = ({
 
     // helper: parse tint color formats supported by the prop
     const parseColor = (c) => {
-      if (!c) return [0.3725, 0.686, 0.866]; // fallback #039932
+      if (!c) return [0.3725, 0.686, 0.866]; // fallback #d489ff
       if (Array.isArray(c)) {
         const [r = 0, g = 0, b = 0] = c;
         return [r / 255, g / 255, b / 255];

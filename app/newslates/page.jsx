@@ -3,8 +3,8 @@ export const metadata = { title: 'Newslates' };
 export default function NewslatesPage() {
   return (
     <main className="max-w-5xl mx-auto py-24 px-6">
-      <h1 className="text-4xl font-bold mb-4">GD Marketing Newslates</h1>
-      <p className="text-lg text-slate-600 mb-8">Subscribe to get the latest product updates, case studies and engineering insights.</p>
+      <h1 className="text-4xl font-bold mb-4">GTA Tech Solutions Newslates</h1>
+      <p className="text-lg text-slate-600 mb-8">Subscribe to get AI, cloud, product engineering, and digital growth updates from GTA Tech Solutions.</p>
 
       <section className="p-8 bg-white/5 rounded-2xl border border-white/5">
         <h2 className="text-2xl font-semibold mb-2">Subscribe</h2>

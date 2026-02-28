@@ -12,7 +12,7 @@ export default function HeroSection({
   overlay = true, // whether to show a semi-opaque overlay for readability
   overlayClass = "bg-black/60",
   usePrism = true, // render animated prism when no image/video provided
-  // prismColor = '#039932',
+  // prismColor = '#d489ff',
   // prismTintStrength = 0.6
 }) {
   return (
@@ -50,7 +50,7 @@ export default function HeroSection({
           </div>
       ) : (
         <div className="absolute inset-0 opacity-20 pointer-events-none -z-20">
-          <div className="absolute top-40 left-20 w-96 h-96 bg-[#039932]/40 rounded-full blur-3xl" />
+                <div className="absolute top-40 left-20 w-96 h-96 bg-[#d489ff]/40 rounded-full blur-3xl" />
           <div className="absolute bottom-40 right-20 w-96 h-96 bg-[#001E5F]/50 rounded-full blur-3xl" />
         </div>
       )}
@@ -63,7 +63,7 @@ export default function HeroSection({
       <div className="relative  max-w-[1440px] mx-auto  z-10">
         <h1 className="text-4xl md:text-7xl  uppercase s  lg:text-7xl font-semibold leading-tight text-white mb-6">
           {h1} {" "}
-          <span className="bg-linear-to-r  from-[#039932] to-[#4BAB54] bg-clip-text text-transparent">
+          <span className="bg-linear-to-r  from-[#d489ff] to-[#a200ff] bg-clip-text text-transparent">
             {highlightText}
           </span>
         </h1>

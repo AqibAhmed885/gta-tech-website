@@ -12,11 +12,11 @@ const poppins = Poppins({
 
 export const metadata = {
   title: {
-    default: "GD Marketing | Premium Digital Marketing & IT Solutions",
-    template: "%s | GD Marketing",
+    default: "GTA Tech Solutions | AI, Product Engineering & IT Services",
+    template: "%s | GTA Tech Solutions",
   },
   description:
-    "Transform your business with GD Marketing's cutting-edge digital marketing and IT solutions. We specialize in custom software development, web & mobile apps, business automation, cloud services, cybersecurity, and digital marketing. Your trusted partner in innovation.",
+    "Transform your business with GTA Tech Solutions. We deliver AI-powered automation, custom software, web and mobile apps, cloud modernization, cybersecurity, and digital growth solutions that scale.",
   keywords: [
     "IT solutions",
     "software development",
@@ -37,9 +37,9 @@ export const metadata = {
     "TypeScript",
     "Tailwind CSS",
   ],
-  authors: [{ name: "GD Marketing" }],
-  creator: "GD Marketing",
-  publisher: "GD Marketing",
+  authors: [{ name: "GTA Tech Solutions" }],
+  creator: "GTA Tech Solutions",
+  publisher: "GTA Tech Solutions",
   robots: {
     index: true,
     follow: true,
@@ -54,38 +54,38 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://gdmarketing.us",
-    siteName: "GD Marketing",
-    title: "GD Marketing - Premium Digital Marketing & IT Solutions",
+    url: "https://gtatechsolutions.com",
+    siteName: "GTA Tech Solutions",
+    title: "GTA Tech Solutions - AI, Product Engineering & IT Services",
     description:
-      "Transform your business with cutting-edge digital marketing and IT solutions. Custom software, mobile apps, automation, cloud services & more.",
+      "Scale with AI automation, product engineering, cloud, cybersecurity, and digital solutions built for measurable growth.",
     images: [
       {
-        url: "/gdLogo.jpg",
+        url: "/gta-logo.png",
         width: 1200,
         height: 630,
-        alt: "GD Marketing - Premium Digital Marketing & IT Solutions",
+        alt: "GTA Tech Solutions - AI, Product Engineering & IT Services",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "GD Marketing - Premium Digital Marketing & IT Solutions",
+    title: "GTA Tech Solutions - AI, Product Engineering & IT Services",
     description:
-      "Transform your business with cutting-edge digital marketing and IT solutions. Custom software, mobile apps, automation, cloud services & more.",
-    images: ["/gdlogo.png"],
-    creator: "@gdmarketing",
+      "Scale with AI automation, product engineering, cloud, cybersecurity, and digital solutions built for measurable growth.",
+    images: ["/gta-logo.png"],
+    creator: "@gtatechsolutions",
   },
   icons: {
-    icon: "/gdlogo-p1.png", // use a valid existing image as favicon
-    shortcut: "/gdlogo-p1.png",
-    apple: "/gdlogo-p1.png",
+    icon: "/gta-logo.png",
+    shortcut: "/gta-logo.png",
+    apple: "/gta-logo.png",
   },
   manifest: "/site.webmanifest",
 };
 
 export const viewport = {
-  themeColor: "#039932",
+  themeColor: "#d489ff",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

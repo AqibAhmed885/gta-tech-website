@@ -48,7 +48,7 @@ export function StickyScroll({ content = [] }) {
                   active === i ? "opacity-100" : "opacity-60"
                 }`}
               >
-                <h3 className={`text-xl md:text-2xl font-semibold ${active === i ? 'text-[#039932]' : 'text-gray-200'}`}>
+                <h3 className={`text-xl md:text-2xl font-semibold ${active === i ? 'text-[#d489ff]' : 'text-gray-200'}`}>
                   {c.title}
                 </h3>
                 <p className="text-sm md:text-base text-gray-300 mt-2">

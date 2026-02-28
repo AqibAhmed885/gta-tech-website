@@ -145,10 +145,10 @@ const Protfolio = forwardRef((props, outerRef) => {
     >
       <div className="px-4">
         <div className="flex  md:pt-8 pt-2 md:flex-row items-start justify-between md:mb-8 mb-4">
-          <h1 className={`md:text-6xl text-3xl font-semibold uppercase  bg-linear-to-r from-[#0BC1A5] to-[#4BAB54] bg-clip-text text-transparent  `}>Portfolio</h1>
+          <h1 className={`md:text-6xl text-3xl font-semibold uppercase  bg-linear-to-r from-[#0BC1A5] to-[#a200ff] bg-clip-text text-transparent  `}>Portfolio</h1>
             {/* <a
               href="/portfolio"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-linear-to-r from-[#039932] to-[#4BAB54] text-[#001E5F] font-bold hover:scale-105 transition-all"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-linear-to-r from-[#d489ff] to-[#a200ff] text-[#001E5F] font-bold hover:scale-105 transition-all"
             >
               View All Projects
               <svg
@@ -194,7 +194,7 @@ const Protfolio = forwardRef((props, outerRef) => {
                           }}
                         />
                       ) : (
-                        <div className="w-full h-full bg-linear-to-br from-[#039932] to-[#4BAB54] flex items-center justify-center">
+                        <div className="w-full h-full bg-linear-to-br from-[#d489ff] to-[#a200ff] flex items-center justify-center">
                           <span className="text-white text-5xl font-bold">{project.name.charAt(0)}</span>
                         </div>
                       )}
@@ -204,7 +204,7 @@ const Protfolio = forwardRef((props, outerRef) => {
                       {/* Card media (clipped image) */}
                       {project.image && (
                         <div
-                        className="absolute inset-0 z-0  md:w-[560px] w-full overflow-hidden  bg-linear-to-br from-[#0BC1A5] to-[#4BAB54] card-media"
+                        className="absolute inset-0 z-0  md:w-[560px] w-full overflow-hidden  bg-linear-to-br from-[#d489ff] to-[#a200ff] card-media"
                           style={{
                             clipPath: index % 2 === 1 ? altClipPolygon : clipPolygon,
                             WebkitClipPath: index % 2 === 1 ? altClipPolygon : clipPolygon,
@@ -243,7 +243,7 @@ const Protfolio = forwardRef((props, outerRef) => {
                         {project.tags.map((tag, tagIndex) => (
                           <span
                             key={tagIndex}
-                            className="inline-block bg-[#039932]/10 text-[#001E5F] text-sm font-medium mr-2 mb-2 px-3 py-1 rounded-full"
+                            className="inline-block bg-[#d489ff]/10 text-[#001E5F] text-sm font-medium mr-2 mb-2 px-3 py-1 rounded-full"
                           >
                             {tag}
                           </span>
@@ -261,7 +261,7 @@ const Protfolio = forwardRef((props, outerRef) => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label={label}
-                                className="h-8 w-8 rounded-full border border-[#001E5F]/20 bg-white/70 text-[#001E5F] hover:border-[#4BAB54] flex items-center justify-center transition-all"
+                                className="h-8 w-8 rounded-full border border-[#001E5F]/20 bg-white/70 text-[#001E5F] hover:border-[#a200ff] flex items-center justify-center transition-all"
                               >
                                 <Icon className="w-4 h-4 text-[#001E5F]" />
                               </a>

@@ -5,7 +5,7 @@
   --brand-700: #024e19;
   --brand-600: #026722;
   --brand-500: #03802a;
-  --brand-400: #039932;
+  --brand-400: #d489ff;
   --brand-300: #03b23a;
   --brand-200: #04cb42;
   --brand-100: #04e44b;
@@ -25,6 +25,22 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+/* Primary	#2563EB
+Secondary	#7C3AED
+light #a200ff
+Accent	#22D3EE
+Dark	#0F1B3D
+Text	#1E3A8A */
+
+.colors {
+  primary: #2563EB;
+  secondary: #7C3AED;
+  light: #a200ff;
+  accent: #22D3EE;
+  dark: #0F1B3D;
+  text: #1E3A8A;
 }
 
 body {

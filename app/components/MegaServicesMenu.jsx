@@ -30,7 +30,7 @@ export default function MegaServicesMenu({ items = [], open, onClose, onOpen }) 
                         <p className="text-sm ">Full list of services across our areas of expertise</p>
                     </div>
                     <div>
-                        <Link href="/services" className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-linear-to-r from-[#039932] to-[#4BAB54] text-[#001E5F] font-semibold text-sm shadow-md hover:shadow-lg">
+                        <Link href="/services" className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-linear-to-r from-[#d489ff] to-[#a200ff] text-[#001E5F] font-semibold text-sm shadow-md hover:shadow-lg">
                             View all services
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h13M12 5l7 7-7 7" />
@@ -46,7 +46,7 @@ export default function MegaServicesMenu({ items = [], open, onClose, onOpen }) 
                                 {cat.items.map((svc, i) => (
                                     <li key={i}>
                                         <Link href={svc.href} className="flex items-center gap-3 text-sm " onClick={() => onClose && onClose()}>
-                                            <span className="flex-1  hover:text-[#4BAB54]">{svc.label}</span>
+                                            <span className="flex-1  hover:text-[#a200ff]">{svc.label}</span>
                                             <span className="">→</span>
                                         </Link>
                                     </li>

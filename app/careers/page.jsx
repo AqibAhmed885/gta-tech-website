@@ -49,14 +49,14 @@ export default function CareersPage() {
                   <div className="text-sm text-gray-400">{pos.team} • {pos.location} • {pos.type}</div>
                 </div>
                 <div className="hidden md:block">
-                  <button onClick={() => setOpenPosition(pos)} className="text-sm text-[#039932] hover:underline">View</button>
+                  <button onClick={() => setOpenPosition(pos)} className="text-sm text-[#d489ff] hover:underline">View</button>
                 </div>
               </div>
 
               <p className="mt-4 text-sm text-gray-300 mb-4">{pos.summary}</p>
 
               <div className="flex gap-3">
-                <button onClick={() => setOpenPosition(pos)} className="inline-flex items-center gap-2 px-4 py-2 rounded bg-linear-to-r from-[#039932] to-[#4BAB54] text-[#001E5F] font-semibold shadow">View details</button>
+                <button onClick={() => setOpenPosition(pos)} className="inline-flex items-center gap-2 px-4 py-2 rounded bg-linear-to-r from-[#d489ff] to-[#a200ff] text-[#001E5F] font-semibold shadow">View details</button>
                 <a href="/contact" className="inline-flex items-center gap-2 px-4 py-2 rounded border border-white/10 text-white/90">Apply</a>
               </div>
             </article>
@@ -75,7 +75,7 @@ export default function CareersPage() {
                 <div>
                   <div className="flex gap-2 items-center">
                     {(openPosition.tags || []).map((tag) => (
-                      <span key={tag} className="text-xs font-semibold text-[#039932] px-3 py-1 rounded-full bg-[#039932]/10">{tag}</span>
+                      <span key={tag} className="text-xs font-semibold text-[#d489ff] px-3 py-1 rounded-full bg-[#d489ff]/10">{tag}</span>
                     ))}
                   </div>
                   <div className="text-xs text-gray-400 mt-2">{openPosition.team} • {openPosition.location} • {openPosition.type}</div>
@@ -106,7 +106,7 @@ export default function CareersPage() {
               </div>
 
               <div className="flex gap-3">
-                <a href="/contact" className="inline-flex items-center gap-2 px-4 py-2 rounded bg-linear-to-r from-[#039932] to-[#4BAB54] text-[#001E5F] font-semibold shadow">Apply</a>
+                <a href="/contact" className="inline-flex items-center gap-2 px-4 py-2 rounded bg-linear-to-r from-[#d489ff] to-[#a200ff] text-[#001E5F] font-semibold shadow">Apply</a>
                 <a href="#open-roles" onClick={() => setOpenPosition(null)} className="inline-flex items-center gap-2 px-4 py-2 rounded border border-white/10 text-white/90">Back to roles</a>
               </div>
             </div>

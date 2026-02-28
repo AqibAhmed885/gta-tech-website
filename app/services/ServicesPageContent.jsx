@@ -275,7 +275,7 @@ export default function ServicesPageContent() {
         ref={heroRef}
         h1="Our"
         highlightText="Services"
-        subtext="At GD Marketing, we specialize in delivering comprehensive digital marketing and IT solutions tailored to your business needs. Our expertise spans software development, cloud computing, cybersecurity, data analytics, and IT consulting. Explore our range of services designed to drive innovation and efficiency."
+        subtext="At GTA Tech Solutions, we deliver end-to-end technology services tailored to your business goals. From AI automation and product engineering to cloud modernization, cybersecurity, and digital growth strategy, our teams build solutions that improve speed, reliability, and measurable outcomes."
         backgroundImage={'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'}
       />
 
@@ -329,7 +329,7 @@ export default function ServicesPageContent() {
               <path
                 d="M90 80 C 130 80, 130 125, 170 125 C 210 125, 210 80, 250 80 C 290 80, 290 35, 330 35 C 370 35, 370 80, 410 80 C 450 80, 450 125, 490 125 C 530 125, 530 80, 570 80 C 610 80, 610 35, 650 35 C 690 35, 690 80, 730 80 C 770 80, 770 125, 810 125 C 850 125, 850 80, 890 80"
                 fill="none"
-                stroke="#4BAB54"
+                stroke="#a200ff"
                 strokeWidth="20"
                 strokeLinecap="round"
                 strokeDasharray="780 600"
@@ -343,13 +343,13 @@ export default function ServicesPageContent() {
                 return (
                   <div key={`node-${step.id}`} className="relative flex items-center justify-center">
                     <span
-                      className={`absolute ${index % 2 === 0 ? "-bottom-10" : "-top-10"} w-12 h-12 rounded-full bg-[#4BAB54] text-black text-2xl font-semibold flex items-center justify-center`}
+                      className={`absolute ${index % 2 === 0 ? "-bottom-10" : "-top-10"} w-12 h-12 rounded-full bg-[#a200ff] text-black text-2xl font-semibold flex items-center justify-center`}
                     >
                       {step.id}
                     </span>
 
                     <div className="w-36 h-36 rounded-full bg-white/20 flex items-center justify-center">
-                      <div className="w-28 h-28 rounded-full bg-[#4BAB54] text-black flex items-center justify-center">
+                      <div className="w-28 h-28 rounded-full bg-[#a200ff] text-black flex items-center justify-center">
                         <Icon className="w-16 h-16" />
                       </div>
                     </div>
@@ -383,10 +383,10 @@ export default function ServicesPageContent() {
                 className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm"
               >
                 <div className="flex items-center gap-4 mb-4">
-                  <span className="w-10 h-10 rounded-full bg-[#4BAB54] text-black text-xl font-semibold flex items-center justify-center">
+                  <span className="w-10 h-10 rounded-full bg-[#a200ff] text-black text-xl font-semibold flex items-center justify-center">
                     {step.id}
                   </span>
-                  <div className="w-12 h-12 rounded-xl bg-[#4BAB54]/20 text-[#4BAB54] border border-[#4BAB54]/40 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-[#a200ff]/20 text-[#a200ff] border border-[#a200ff]/40 flex items-center justify-center">
                     <Icon className="w-6 h-6" />
                   </div>
                 </div>

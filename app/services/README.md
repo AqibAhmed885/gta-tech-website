@@ -1,4 +1,4 @@
-# Services Page - GD Marketing
+# Services Page - GTA Tech Solutions
 
 ## Overview
 A modern, responsive Services page built with Next.js 16 (App Router), React 19, Tailwind CSS 4, and GSAP animations.
@@ -22,8 +22,8 @@ A modern, responsive Services page built with Next.js 16 (App Router), React 19,
 
 ### 🎨 Design System
 **Color Palette:**
-- Primary: `#039932` (Light Blue)
-- Secondary: `#4BAB54` (Medium Blue)
+- Primary: `#d489ff` (Light Blue)
+- Secondary: `#a200ff` (Medium Blue)
 - Dark: `#001E5F` (Navy)
 - Background: `#000000` (Black)
 
@@ -102,7 +102,7 @@ const services = [
     icon: FaCode, // React Icon component
     title: "Service Title",
     description: "Service description...",
-    gradient: "from-[#039932] to-[#4BAB54]", // Tailwind gradient
+    gradient: "from-[#d489ff] to-[#a200ff]", // Tailwind gradient
   },
   // ... more services
 ];
@@ -169,7 +169,7 @@ Expected Lighthouse scores:
 - [ ] Implement contact form per service
 
 ## Credits
-- Design: GD Marketing Design System
+- Design: GTA Tech Solutions Design System
 - Icons: React Icons (Font Awesome)
 - Animations: GSAP (GreenSock)
 - Framework: Next.js + React

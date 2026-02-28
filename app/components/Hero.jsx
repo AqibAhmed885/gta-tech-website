@@ -14,8 +14,8 @@ const Hero = forwardRef((props, ref) => {
         "We're passionate about turning visionary concepts into powerful digital experiences. Every project is an opportunity to create something extraordinary that makes a real impact on people's lives.",
       ctaText: "Discover Our Story",
       ctaLink: "/about",
-      gradient: "from-[#4BAB54] to-[#039932]",
-      bgVideo: "https://cdn.pixabay.com/video/2022/09/20/131999-751915336_large.mp4",
+      gradient: "from-[#2563EB] to-[#7C3AED]",
+      bgVideo: "https://www.pexels.com/download/video/28872822/",
     },
     {
       badge: "Our Vision",
@@ -25,8 +25,8 @@ const Hero = forwardRef((props, ref) => {
         "We believe in collaboration, creativity, and pushing boundaries. Our team is driven by the desire to solve complex challenges and deliver solutions that exceed expectations every single time.",
       ctaText: "Join Our Journey",
       ctaLink: "/services",
-      gradient: "from-[#039932] to-[#4BAB54]",
-      bgVideo: "https://www.pexels.com/download/video/1826896/"
+      gradient: "from-[#7C3AED] to-[#2563EB]",
+      bgVideo: "https://www.pexels.com/download/video/3997967/"
     },
     {
       badge: "Our Passion",
@@ -36,7 +36,7 @@ const Hero = forwardRef((props, ref) => {
         "Design isn't just what we do—it's how we think. We're obsessed with crafting beautiful, intuitive experiences that connect with users emotionally and drive meaningful engagement.",
       ctaText: "See Our Work",
       ctaLink: "/portfolio",
-      gradient: "from-[#4BAB54] via-[#4BAB54] to-[#039932]",
+      gradient: "from-[#2563EB] via-[#2563EB] to-[#7C3AED]",
       bgVideo: "https://www.pexels.com/download/video/854325/",
     },
     {
@@ -47,7 +47,7 @@ const Hero = forwardRef((props, ref) => {
         "Quality isn't negotiable. We're committed to delivering flawless solutions with meticulous attention to detail, ensuring your digital presence stands out and performs brilliantly.",
       ctaText: "Start Your Project",
       ctaLink: "/contact",
-      gradient: "from-[#039932] via-[#4BAB54] to-[#4BAB54]",
+      gradient: "from-[#7C3AED] via-[#2563EB] to-[#2563EB]",
       bgVideo: "https://www.pexels.com/download/video/1824697/"
     },
   ];
@@ -153,7 +153,7 @@ const Hero = forwardRef((props, ref) => {
 
                 <a
                   href="/contact"
-                  className="px-6 py-3 rounded-full border-2 border-[#039932] text-[#039932] hover:bg-[#039932]/10 hover:border-[#039932]/80 transition-all text-sm font-medium"
+                  className="px-6 py-3 rounded-full border-2 border-[#d489ff] text-[#d489ff] hover:bg-[#d489ff]/10 hover:border-[#d489ff]/80 transition-all text-sm font-medium"
                 >
                   Get in Touch
                 </a>
@@ -183,7 +183,7 @@ const Hero = forwardRef((props, ref) => {
                 className={`h-1 rounded-full transition-all duration-300 ${
                   index === currentSlide
                   ? `w-6 bg-linear-to-r ${slide.gradient}`
-                  : "w-1 bg-[#4BAB54]/50 hover:bg-[#039932]/50"
+                  : "w-1 bg-[#2563EB]/50 hover:bg-[#d489ff]/50"
                 }`}
                 aria-label={`Go to slide ${index + 1}`}
               />

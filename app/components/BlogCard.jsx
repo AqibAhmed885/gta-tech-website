@@ -30,7 +30,7 @@ export default function BlogCard({ post, index, onOpen }) {
               <div className="flex items-center gap-2 mb-3">
                 <div className="flex flex-wrap gap-2">
                   {(post.tags || []).map((tag) => (
-                    <span key={tag} className="text-xs font-semibold text-[#039932] px-3 py-1 rounded-full bg-[#039932]/10">{tag}</span>
+                    <span key={tag} className="text-xs font-semibold text-[#d489ff] px-3 py-1 rounded-full bg-[#d489ff]/10">{tag}</span>
                   ))}
                 </div>
                 <time className="text-xs text-gray-400 ml-auto">{post.date}</time>
@@ -62,7 +62,7 @@ export default function BlogCard({ post, index, onOpen }) {
               <div className="flex items-center gap-2 mb-3">
                 <div className="flex flex-wrap gap-2">
                   {(post.tags || []).map((tag) => (
-                    <span key={tag} className="text-xs font-semibold text-[#039932] px-3 py-1 rounded-full bg-[#039932]/10">{tag}</span>
+                    <span key={tag} className="text-xs font-semibold text-[#d489ff] px-3 py-1 rounded-full bg-[#d489ff]/10">{tag}</span>
                   ))}
                 </div>
                 <time className="text-xs text-gray-400 ml-auto">{post.date}</time>

@@ -121,17 +121,17 @@ export default function IndustriesPageContent() {
           return (
             <article
               key={it.id}
-              className="group relative overflow-hidden rounded-2xl border border-white/5 bg-white/[0.04] p-6 shadow-lg shadow-black/20 ring-1 ring-white/5 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:ring-[#039932]/30"
+              className="group relative overflow-hidden rounded-2xl border border-white/5 bg-white/[0.04] p-6 shadow-lg shadow-black/20 ring-1 ring-white/5 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:ring-[#d489ff]/30"
             >
               <div className="pointer-events-none absolute inset-0 opacity-0 blur-[1px] transition duration-300 group-hover:opacity-100" aria-hidden>
                 <div className="absolute -left-10 -top-16 h-40 w-40 rounded-full bg-[#0B67A5]/30" />
-                <div className="absolute -right-12 -bottom-14 h-44 w-44 rounded-full bg-[#4BAB54]/25" />
+                <div className="absolute -right-12 -bottom-14 h-44 w-44 rounded-full bg-[#a200ff]/25" />
               </div>
 
               <div className="relative flex flex-col gap-4">
                 <div className="flex flex-col items-start gap-4">
                   <IconCircle className="">
-                    <Icon className="h-9 w-9 text-[#039932]" />
+                    <Icon className="h-9 w-9 text-[#d489ff]" />
                   </IconCircle>
                   <div className="flex-1 space-y-2">
                     <h3 className="text-lg font-semibold leading-tight text-white">
@@ -146,7 +146,7 @@ export default function IndustriesPageContent() {
                 {/* <div className="flex items-center justify-between pt-2">
                   <button
                     onClick={() => setSelected(it)}
-                    className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-[#039932] to-[#4BAB54] px-4 py-2 text-sm font-semibold text-[#001E5F] shadow shadow-black/20 transition duration-200 hover:shadow-lg hover:shadow-[#4BAB54]/30"
+                    className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-[#d489ff] to-[#a200ff] px-4 py-2 text-sm font-semibold text-[#001E5F] shadow shadow-black/20 transition duration-200 hover:shadow-lg hover:shadow-[#a200ff]/30"
                   >
                     Learn more
                     <FiArrowRight className="h-4 w-4" />
@@ -188,7 +188,7 @@ export default function IndustriesPageContent() {
                 </ul>
 
                 <div className="mt-6 flex gap-3">
-                  <Link href="/contact" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-linear-to-r from-[#039932] to-[#4BAB54] text-[#001E5F] font-semibold">Talk to us</Link>
+                  <Link href="/contact" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-linear-to-r from-[#d489ff] to-[#a200ff] text-[#001E5F] font-semibold">Talk to us</Link>
                   <button onClick={() => setSelected(null)} className="px-4 py-2 rounded-lg bg-white/5 text-white hover:bg-white/10">Close</button>
                 </div>
               </div>

@@ -6,7 +6,7 @@ export default function CareersHero() {
   return (
     <section className="relative w-full min-h-[60vh] px-4 md:px-20 py-20 md:py-28 flex items-center mb-12">
       <div className="absolute inset-0 opacity-20 pointer-events-none">
-        <div className="absolute top-12 left-10 w-72 h-72 bg-[#039932]/30 rounded-full blur-3xl" />
+        <div className="absolute top-12 left-10 w-72 h-72 bg-[#d489ff]/30 rounded-full blur-3xl" />
         <div className="absolute bottom-12 right-10 w-72 h-72 bg-[#001E5F]/30 rounded-full blur-3xl" />
       </div>
 
@@ -19,7 +19,7 @@ export default function CareersHero() {
             We’re building fast, resilient products and we’re looking for talented people who care about design, engineering and great user experiences.
           </p>
           <div className="flex gap-4">
-            <a href="/contact" className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-linear-to-r from-[#039932] to-[#4BAB54] text-[#001E5F] font-semibold shadow-md hover:brightness-105 transition">Contact us</a>
+            <a href="/contact" className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-linear-to-r from-[#d489ff] to-[#a200ff] text-[#001E5F] font-semibold shadow-md hover:brightness-105 transition">Contact us</a>
             <a href="#open-roles" className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-white/10 text-white/90 hover:text-white transition">View roles</a>
           </div>
         </div>

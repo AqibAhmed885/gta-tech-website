@@ -76,8 +76,8 @@ export default function Navbar() {
           <div className="flex items-center  justify-start md:justify-end">
             <Link href="/" className="inline-flex items-center gap-3 group">
               <Image
-                src="/gd-logo-white.png"
-                alt="GD Marketing logo"
+                src="/gta-logo.png"
+                alt="GTA Tech Solutions logo"
                 width={200}
                 height={48}
                 className="object-contain rounded-lg group-hover:scale-105 transition-transform"
@@ -98,17 +98,17 @@ export default function Navbar() {
                   aria-expanded={item.href === '/services' ? megaOpen : undefined}
                   aria-current={active ? 'page' : undefined}
                 >
-                  <span className={`${active ? 'text-[#039932]' : 'text-white group-hover:text-[#039932]'} font-medium`}>{item.label}</span>
-                  <span className={`absolute -bottom-1 left-0 h-0.5 w-full bg-[#039932] rounded transition-all duration-300 ${active ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`} />
+                  <span className={`${active ? 'text-[#d489ff]' : 'text-white group-hover:text-[#d489ff]'} font-medium`}>{item.label}</span>
+                  <span className={`absolute -bottom-1 left-0 h-0.5 w-full bg-[#d489ff] rounded transition-all duration-300 ${active ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`} />
                 </Link>
               );
             })}
 
             {/* <Link
               href="/contact"
-              className="ml-2 inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-[#039932] font-semibold text-sm shadow-md hover:shadow-lg hover:brightness-110 transition"
+              className="ml-2 inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-[#d489ff] font-semibold text-sm shadow-md hover:shadow-lg hover:brightness-110 transition"
             >
-              <span className="text-[#039932]">Lets Talk Business</span>
+              <span className="text-[#d489ff]">Lets Talk Business</span>
             </Link> */}
           </div>
 
@@ -119,7 +119,7 @@ export default function Navbar() {
             <button
               aria-label="Toggle menu"
               onClick={() => setOpen((o) => !o)}
-              className="inline-flex items-center justify-center w-11 h-11 rounded-xl border border-[#039932]/30 text-[#039932] hover:bg-[#039932]/10 transition"
+              className="inline-flex items-center justify-center w-11 h-11 rounded-xl border border-[#d489ff]/30 text-[#d489ff] hover:bg-[#d489ff]/10 transition"
             >
             {open ? (
               <svg
@@ -167,7 +167,7 @@ export default function Navbar() {
             <div className={` flex items-center justify-end  mx-6 transition-all duration-1200 ${stickyHover ? 'scale-105' : ''}`}>
               <Link href="/" className="inline-flex items-center gap-2">
                 <Image
-                  src="/gd-logo-black.png"
+                  src="/gta-logo.png"
                   alt="logo"
                   width={120}
                   height={20}
@@ -189,7 +189,7 @@ export default function Navbar() {
                     <span className={`${active ? 'text-[#2C303A]' : 'text-black/80 group-hover:text-[#001E5F]'}`}>
                       {item.label}
                     </span>
-                    <span className={`absolute bottom-0 left-0 h-0.5 w-full bg-[#039932]  rounded transition-all duration-300 ${active ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`} />
+                    <span className={`absolute bottom-0 left-0 h-0.5 w-full bg-[#d489ff]  rounded transition-all duration-300 ${active ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`} />
                   </Link>
                 );
               })}
@@ -206,7 +206,7 @@ export default function Navbar() {
               <button
                 aria-label="Toggle menu"
                 onClick={() => setOpen((o) => !o)}
-                className="inline-flex items-center justify-center w-8 h-8 mr-6  text-black hover:bg-[#039932]/10 transition"
+                className="inline-flex items-center justify-center w-8 h-8 mr-6  text-black hover:bg-[#d489ff]/10 transition"
               >
                 {open ? (
                   <svg
@@ -256,7 +256,7 @@ export default function Navbar() {
                   href={item.href}
                   className={`w-full px-4 py-3 rounded-xl text-sm font-medium tracking-wide transition-colors ${
                     active
-                    ? "bg-linear-to-r from-[#4BAB54] to-[#4BAB54] text-white shadow"
+                    ? "bg-linear-to-r from-[#a200ff] to-[#a200ff] text-white shadow"
                       : "text-gray-100 hover:bg-white/5 hover:text-white"
                     }`}
                   onClick={() => { setOpen(false); setMegaOpen(false); }}
@@ -267,7 +267,7 @@ export default function Navbar() {
             })}
             <Link
               href="/contact"
-              className="mt-2 w-full inline-flex justify-center items-center gap-2 px-5 py-3 rounded-xl bg-linear-to-r from-[#4BAB54] to-[#4BAB54] text-white font-semibold text-sm shadow-md"
+              className="mt-2 w-full inline-flex justify-center items-center gap-2 px-5 py-3 rounded-xl bg-linear-to-r from-[#a200ff] to-[#a200ff] text-white font-semibold text-sm shadow-md"
               onClick={() => setOpen(false)}
             >
               Start a Project

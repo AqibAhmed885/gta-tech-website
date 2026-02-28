@@ -78,7 +78,7 @@ export default function SectionHeader({ title, subtitle }) {
 
       {/* Decorative gradient line */}
       {/* <div className="flex justify-center mt-6">
-        <div className="decorative-line h-1 w-24 bg-linear-to-r from-[#039932] to-[#001E5F] rounded-full" />
+        <div className="decorative-line h-1 w-24 bg-linear-to-r from-[#d489ff] to-[#001E5F] rounded-full" />
       </div> */}
     </header>
   );
