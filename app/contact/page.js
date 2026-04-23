@@ -1,11 +1,11 @@
 import ContactPageContent from "./ContactPageContent";
 
 export const metadata = {
-  title: "Contact Us | GTA Tech Solutions - Get in Touch",
+  title: "Contact Us | GTA Tech.ai - Get in Touch",
   description:
-    "Ready to transform your business? Contact GTA Tech Solutions today. Our team is ready to discuss your goals, recommend the right technology path, and help you ship high-impact solutions faster.",
+    "Ready to transform your business? Contact GTA Tech.ai today. Our team is ready to discuss your goals, recommend the right technology path, and help you ship high-impact solutions faster.",
   keywords: [
-    "contact GTA Tech Solutions",
+    "contact GTA Tech.ai",
     "get in touch",
     "IT consultation",
     "project inquiry",
@@ -15,7 +15,7 @@ export const metadata = {
     "contact form",
   ],
   openGraph: {
-    title: "Contact GTA Tech Solutions - Let's Build Together",
+    title: "Contact GTA Tech.ai - Let's Build Together",
     description:
       "Ready to transform your business? Get in touch with our team today.",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata = {
         url: "/Logo.png",
         width: 1200,
         height: 630,
-        alt: "Contact GTA Tech Solutions",
+        alt: "Contact GTA Tech.ai",
       },
     ],
   },

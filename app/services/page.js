@@ -1,9 +1,9 @@
 import ServicesPageContent from "./ServicesPageContent";
 
 export const metadata = {
-  title: "Services | GTA Tech Solutions - AI, Product & IT Services",
+  title: "Services | GTA Tech.ai - AI, Product & IT Services",
   description:
-    "Explore our end-to-end GTA Tech Solutions services: AI automation, custom software engineering, web and mobile development, cloud modernization, cybersecurity, data intelligence, and digital growth strategy.",
+    "Explore our end-to-end GTA Tech.ai services: AI automation, custom software engineering, web and mobile development, cloud modernization, cybersecurity, data intelligence, and digital growth strategy.",
   keywords: [
     "IT services",
     "software development",
@@ -22,7 +22,7 @@ export const metadata = {
     "enterprise software",
   ],
   openGraph: {
-    title: "Premium IT Services | GTA Tech Solutions",
+    title: "Premium IT Services | GTA Tech.ai",
     description:
       "Accelerate business outcomes with AI automation, cloud-native development, secure systems, and product engineering excellence.",
     type: "website",
@@ -31,7 +31,7 @@ export const metadata = {
         url: "/Logo.png",
         width: 1200,
         height: 630,
-        alt: "GTA Tech Solutions Services",
+        alt: "GTA Tech.ai Services",
       },
     ],
   },

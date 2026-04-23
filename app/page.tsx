@@ -26,7 +26,7 @@ export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "GTA Tech Solutions",
+    name: "GTA Tech.ai",
     url: "https://gtatechsolutions.com",
     logo: "https://gtatechsolutions.com/gta-logo.png",
     description:

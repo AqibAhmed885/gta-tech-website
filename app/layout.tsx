@@ -12,11 +12,11 @@ const poppins = Poppins({
 
 export const metadata = {
   title: {
-    default: "GTA Tech Solutions | AI, Product Engineering & IT Services",
-    template: "%s | GTA Tech Solutions",
+    default: "GTA Tech.ai | AI, Product Engineering & IT Services",
+    template: "%s | GTA Tech.ai",
   },
   description:
-    "Transform your business with GTA Tech Solutions. We deliver AI-powered automation, custom software, web and mobile apps, cloud modernization, cybersecurity, and digital growth solutions that scale.",
+    "Transform your business with GTA Tech.ai. We deliver AI-powered automation, custom software, web and mobile apps, cloud modernization, cybersecurity, and digital growth solutions that scale.",
   keywords: [
     "IT solutions",
     "software development",
@@ -37,9 +37,9 @@ export const metadata = {
     "TypeScript",
     "Tailwind CSS",
   ],
-  authors: [{ name: "GTA Tech Solutions" }],
-  creator: "GTA Tech Solutions",
-  publisher: "GTA Tech Solutions",
+  authors: [{ name: "GTA Tech.ai" }],
+  creator: "GTA Tech.ai",
+  publisher: "GTA Tech.ai",
   robots: {
     index: true,
     follow: true,
@@ -55,8 +55,8 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://gtatechsolutions.com",
-    siteName: "GTA Tech Solutions",
-    title: "GTA Tech Solutions - AI, Product Engineering & IT Services",
+    siteName: "GTA Tech.ai",
+    title: "GTA Tech.ai - AI, Product Engineering & IT Services",
     description:
       "Scale with AI automation, product engineering, cloud, cybersecurity, and digital solutions built for measurable growth.",
     images: [
@@ -64,13 +64,13 @@ export const metadata = {
         url: "/gta-logo.png",
         width: 1200,
         height: 630,
-        alt: "GTA Tech Solutions - AI, Product Engineering & IT Services",
+        alt: "GTA Tech.ai - AI, Product Engineering & IT Services",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "GTA Tech Solutions - AI, Product Engineering & IT Services",
+    title: "GTA Tech.ai - AI, Product Engineering & IT Services",
     description:
       "Scale with AI automation, product engineering, cloud, cybersecurity, and digital solutions built for measurable growth.",
     images: ["/gta-logo.png"],

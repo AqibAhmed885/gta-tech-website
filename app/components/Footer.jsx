@@ -9,10 +9,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 p-10 md:p-8">
           <div className="md:col-span-2">
             <div className="flex items-center gap-4 mb-6">
-              <Image src="/gta-logo.png" alt="GTA Tech Solutions Logo" width={220} height={80} className="" />
+              <Image src="/gta-logo.png" alt="GTA Tech.ai Logo" width={220} height={80} className="" />
             </div>
             <p className="text-base md:text-lg text-white/90 max-w-xl leading-relaxed">
-              GTA Tech Solutions delivers AI-powered digital products, cloud-ready engineering, and growth-focused technology services for modern businesses.
+              GTA Tech.ai delivers AI-powered digital products, cloud-ready engineering, and growth-focused technology services for modern businesses.
             </p>
           </div>
 
@@ -28,15 +28,15 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-xl uppercase tracking-wider mb-5 text-white/90">Contact</h3>
             <ul className="space-y-4 text-lg mt-5 text-white/90">
-              <li><a href="mailto:info@gtatechsolutions.com" className="hover:text-white transition-colors">info@gtatechsolutions.com</a></li>
-              <li><a href="tel:+16263792252" className="hover:text-white transition-colors">+1 626 379 2252</a></li>
+              <li><a href="mailto:info@gtatech.ai" className="hover:text-white transition-colors">info@gtatech.ai</a></li>
+              <li><a href="tel:+14379559579" className="hover:text-white transition-colors">+1 437-955-9579</a></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">Get in Touch</Link></li>
             </ul>
           </div>
         </div>
 
         <div className="px-10 md:px-16 py-6 border-t border-white/20 flex flex-col sm:flex-row  items-center justify-between  gap-4 text-sm text-white/85">
-          <p>© 2026 GTA Tech Solutions. All rights reserved.</p>
+          <p>© 2026 GTA Tech.ai. All rights reserved.</p>
           <div className="flex items-center gap-3">
             <Link
               href="https://www.instagram.com/gtatechsolutions/"

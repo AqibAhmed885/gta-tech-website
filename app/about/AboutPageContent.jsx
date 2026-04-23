@@ -157,7 +157,7 @@ export default function AboutPageContent() {
         ref={heroRef}
         h1="We Build Digital"
         highlightText="Experiences"
-        subtext="GTA Tech Solutions is a team of engineers, strategists, and designers dedicated to helping businesses modernize with scalable digital products, AI-powered automation, and resilient cloud architecture."
+        subtext="GTA Tech.ai is a team of engineers, strategists, and designers dedicated to helping businesses modernize with scalable digital products, AI-powered automation, and resilient cloud architecture."
         backgroundImage={'https://images.unsplash.com/photo-1452717602770-b78d1b2115e1?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'}
       />
 
@@ -211,7 +211,7 @@ export default function AboutPageContent() {
             </h3> */}
 
             <p className="text-xl md:text-xl leading-relaxed mb-4">
-              GTA Tech Solutions was built with a clear mission: to turn complex business challenges into practical, scalable technology outcomes.
+              GTA Tech.ai was built with a clear mission: to turn complex business challenges into practical, scalable technology outcomes.
             </p>
 
             <p className="text-xl md:text-xl leading-relaxed">
@@ -229,7 +229,7 @@ export default function AboutPageContent() {
             </p>
 
             <p className="text-xl  leading-relaxed mb-4">
-              By integrating systems, automating workflows, and applying product thinking, GTA Tech Solutions helps organizations improve user experience, operational efficiency, and time-to-market.
+              By integrating systems, automating workflows, and applying product thinking, GTA Tech.ai helps organizations improve user experience, operational efficiency, and time-to-market.
             </p>
 
             <p className="text-xl  leading-relaxed">

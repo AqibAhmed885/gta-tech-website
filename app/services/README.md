@@ -1,4 +1,4 @@
-# Services Page - GTA Tech Solutions
+# Services Page - GTA Tech.ai
 
 ## Overview
 A modern, responsive Services page built with Next.js 16 (App Router), React 19, Tailwind CSS 4, and GSAP animations.
@@ -169,7 +169,7 @@ Expected Lighthouse scores:
 - [ ] Implement contact form per service
 
 ## Credits
-- Design: GTA Tech Solutions Design System
+- Design: GTA Tech.ai Design System
 - Icons: React Icons (Font Awesome)
 - Animations: GSAP (GreenSock)
 - Framework: Next.js + React

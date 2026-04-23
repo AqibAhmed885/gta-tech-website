@@ -77,7 +77,7 @@ export default function Navbar() {
             <Link href="/" className="inline-flex items-center gap-3 group">
               <Image
                 src="/gta-logo.png"
-                alt="GTA Tech Solutions logo"
+                alt="GTA Tech.ai logo"
                 width={200}
                 height={48}
                 className="object-contain rounded-lg group-hover:scale-105 transition-transform"

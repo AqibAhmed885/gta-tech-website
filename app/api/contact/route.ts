@@ -61,7 +61,7 @@ export async function POST(request: Request) {
       <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Thank You for Contacting GTA Tech Solutions</title>
+        <title>Thank You for Contacting GTA Tech.ai</title>
         <style>
           body { margin: 0; padding: 0; background-color: #000000; font-family: 'Arial', sans-serif; color: #ffffff; }
           .container { max-width: 600px; margin: 0 auto; background-color: #111111; border-radius: 16px; overflow: hidden; border: 1px solid #333333; }
@@ -83,7 +83,7 @@ export async function POST(request: Request) {
             </div>
             <div class="content">
               <h1 class="h1">Hi ${name},</h1>
-              <p>Thank you for reaching out to <strong>GTA Tech Solutions</strong>. We have received your message and are excited to learn more about your project.</p>
+              <p>Thank you for reaching out to <strong>GTA Tech.ai</strong>. We have received your message and are excited to learn more about your project.</p>
               
               <p>Our team is currently reviewing your inquiry regarding <span class="highlight">${service || 'our services'}</span>. We usually respond within 24 hours to schedule a consultation or provide the information you need.</p>
               
@@ -94,7 +94,7 @@ export async function POST(request: Request) {
               </center>
             </div>
             <div class="footer">
-              <p>&copy; ${new Date().getFullYear()} GTA Tech Solutions. All rights reserved.</p>
+              <p>&copy; ${new Date().getFullYear()} GTA Tech.ai. All rights reserved.</p>
               <p>3030 Shadowbriar Dr, Houston, TX 77082, United States</p>
             </div>
           </div>
@@ -106,7 +106,7 @@ export async function POST(request: Request) {
         const userAutoreplyOptions = {
             from: process.env.SMTP_FROM,
             to: email,
-          subject: `Thank you for contacting GTA Tech Solutions`,
+          subject: `Thank you for contacting GTA Tech.ai`,
             html: autoreplyHtml,
         };
 

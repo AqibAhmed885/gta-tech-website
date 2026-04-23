@@ -1,9 +1,9 @@
 import PortfolioPageContent from "./PortfolioPageContent";
 
 export const metadata = {
-  title: "Portfolio | GTA Tech Solutions - Case Studies & Outcomes",
+  title: "Portfolio | GTA Tech.ai - Case Studies & Outcomes",
   description:
-    "Explore GTA Tech Solutions case studies across enterprise software, AI automation, web platforms, mobile products, and digital transformation programs that delivered measurable growth.",
+    "Explore GTA Tech.ai case studies across enterprise software, AI automation, web platforms, mobile products, and digital transformation programs that delivered measurable growth.",
   keywords: [
     "portfolio",
     "case studies",
@@ -15,7 +15,7 @@ export const metadata = {
     "project showcase",
   ],
   openGraph: {
-    title: "GTA Tech Solutions Portfolio - Our Work",
+    title: "GTA Tech.ai Portfolio - Our Work",
     description:
       "See how we help teams scale with modern engineering, secure architecture, and performance-driven digital solutions.",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata = {
         url: "/Logo.png",
         width: 1200,
         height: 630,
-        alt: "GTA Tech Solutions Portfolio",
+        alt: "GTA Tech.ai Portfolio",
       },
     ],
   },

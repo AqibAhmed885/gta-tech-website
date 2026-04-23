@@ -275,7 +275,7 @@ export default function ServicesPageContent() {
         ref={heroRef}
         h1="Our"
         highlightText="Services"
-        subtext="At GTA Tech Solutions, we deliver end-to-end technology services tailored to your business goals. From AI automation and product engineering to cloud modernization, cybersecurity, and digital growth strategy, our teams build solutions that improve speed, reliability, and measurable outcomes."
+        subtext="At GTA Tech.ai, we deliver end-to-end technology services tailored to your business goals. From AI automation and product engineering to cloud modernization, cybersecurity, and digital growth strategy, our teams build solutions that improve speed, reliability, and measurable outcomes."
         backgroundImage={'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'}
       />
 
